@@ -9,7 +9,7 @@ driver.find_element(By.XPATH,"//a[normalize-space()='Register']").click()
 driver.refresh()
 
 if driver.title == "nopCommerce demo store. Register":
-   print('Title verified')
+   print('Title is verified')
 else:
    print('Wrong Title')
 
