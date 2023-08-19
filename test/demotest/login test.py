@@ -21,11 +21,11 @@ monthDropdown=Select(driver.find_element(By.XPATH,"//select[@name='DateOfBirthMo
 monthDropdown.select_by_value("11")
 yearDropdown=Select(driver.find_element(By.XPATH,"//select[@name='DateOfBirthYear']"))
 yearDropdown.select_by_value("1999")
-driver.find_element(By.XPATH,"//input[@id='Email']").send_keys("abc@gmail.com")
+driver.find_element(By.XPATH,"//input[@id='Email']").send_keys("abc1213@gmail.com")
 driver.find_element(By.XPATH,"//input[@id='Company']").send_keys("Happy")
 driver.find_element(By.XPATH,"//input[@id='Password']").send_keys("12345@Abc")
 driver.find_element(By.XPATH,"//input[@id='ConfirmPassword']").send_keys("12345@Abc")
-driver.find_element(By.XPATH,"//button[@id='register-button']").click
+driver.find_element(By.XPATH,"//button[@id='register-button']").click()
 
 time.sleep(10)
 
